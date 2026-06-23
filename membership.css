@@ -1,0 +1,135 @@
+/* ============================================================
+   Membership Registration Page Styles
+   Uses the same CSS variables defined in style.css (:root)
+   ============================================================ */
+
+.member-hero {
+  padding: 9rem 0 4rem;
+  background: linear-gradient(135deg, var(--green-dark), var(--green));
+  color: #fff;
+  text-align: center;
+}
+.member-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0.6rem 0 1rem;
+  color: #fff;
+}
+.member-hero .text-accent { color: var(--gold); }
+.member-hero p {
+  max-width: 640px;
+  margin: 0 auto;
+  opacity: 0.92;
+}
+
+.member-section {
+  padding: 5rem 0;
+  background: var(--green-light);
+}
+
+.member-wrap {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 900px) {
+  .member-wrap { grid-template-columns: 1fr; }
+}
+
+.member-form-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 2.2rem;
+}
+
+.member-form-card h3 {
+  font-family: var(--font-display);
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.member-form-card h3 i { color: var(--gold); margin-right: 0.5rem; }
+
+.member-subtext {
+  color: var(--text-dim, #aaa);
+  margin-bottom: 1.6rem;
+  font-size: 0.92rem;
+}
+
+.req { color: var(--red, #e0202f); }
+
+.form-label {
+  display: block;
+  color: #ddd;
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin: 1rem 0 0.4rem;
+}
+
+.member-form-card .form-input {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.member-form-card .btn-full {
+  margin-top: 1.8rem;
+}
+
+.form-message {
+  padding: 0.9rem 1.1rem;
+  border-radius: 10px;
+  margin-bottom: 1.3rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.form-message.success {
+  background: rgba(31,154,58,0.15);
+  border: 1px solid var(--green);
+  color: #b6f0c2;
+}
+.form-message.error {
+  background: rgba(224,32,47,0.15);
+  border: 1px solid var(--red, #e0202f);
+  color: #ffc7cb;
+}
+
+.member-info {
+  padding-top: 1rem;
+}
+.member-info h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 2.6vw, 2.2rem);
+  color: #fff;
+  margin: 0.5rem 0 1.2rem;
+}
+
+.member-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.6rem;
+}
+.member-benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  color: #ddd;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+.member-benefits li i { color: var(--green); margin-top: 0.2rem; }
+
+.member-note {
+  display: flex;
+  gap: 0.8rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  color: #ccc;
+  font-size: 0.88rem;
+}
+.member-note i { color: var(--gold); margin-top: 0.2rem; }
