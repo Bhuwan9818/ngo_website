@@ -23,7 +23,7 @@ define('SMTP_PORT',      587);                    // 587 = STARTTLS  |  465 = SS
 define('SMTP_SECURE',    'tls');                  // 'tls' for port 587, 'ssl' for port 465
 define('SMTP_USERNAME',  'bhuwansingh8860@gmail.com'); // ← your SMTP login email
 define('SMTP_PASSWORD',  'metu ghcw azds jvip');  // <-- Gmail App Password
-define('SMTP_FROM_NAME', 'Sahara Foundation');
+define('SMTP_FROM_NAME', 'devendra kula vellalar sangam delhi');
 
 // Email address where the NGO admin should receive a copy of every
 // new membership registration (can be same as SMTP_USERNAME).

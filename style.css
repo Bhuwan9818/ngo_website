@@ -1,5 +1,5 @@
 /* ============================================================
-   SAHARA FOUNDATION – style.css
+   devendra kula vellalar sangam delhi – style.css
    Warm humanity palette, slab-serif display, full responsive
    ============================================================ */
 
@@ -194,7 +194,7 @@ input, select, textarea { font-family: inherit; }
   width: 70px;
   height: 100px;
   /* border-radius: 50%; */
-  background: linear-gradient(135deg, var(--red), var(--green));
+  background: transparent;
   display: grid; place-items: center;
   color: var(--white);
   margin-top: -10px;

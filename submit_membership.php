@@ -120,12 +120,12 @@ try {
     $mail->addBCC(ADMIN_NOTIFY_EMAIL);
 
     $mail->isHTML(true);
-    $mail->Subject = "Welcome to Sahara Foundation - Registration ID: {$registration_id}";
+    $mail->Subject = "Welcome to devendra kula vellalar sangam delhi - Registration ID: {$registration_id}";
     $mail->Body = "
         <div style='font-family:Arial,sans-serif;max-width:600px;margin:auto;'>
             <h2 style='color:#1f9a3a;'>Membership Confirmed!</h2>
             <p>Dear " . htmlspecialchars($full_name) . ",</p>
-            <p>Thank you for registering as a member of <strong>Sahara Foundation</strong>. Your details have been recorded successfully.</p>
+            <p>Thank you for registering as a member of <strong>devendra kula vellalar sangam delhi</strong>. Your details have been recorded successfully.</p>
             <table style='width:100%;border-collapse:collapse;margin:16px 0;'>
                 <tr><td style='padding:8px;border:1px solid #ddd;'><strong>Registration ID</strong></td><td style='padding:8px;border:1px solid #ddd;'>{$registration_id}</td></tr>
                 <tr><td style='padding:8px;border:1px solid #ddd;'><strong>Name</strong></td><td style='padding:8px;border:1px solid #ddd;'>" . htmlspecialchars($full_name) . "</td></tr>
@@ -135,10 +135,10 @@ try {
                 <tr><td style='padding:8px;border:1px solid #ddd;'><strong>Village</strong></td><td style='padding:8px;border:1px solid #ddd;'>" . htmlspecialchars($village) . "</td></tr>
             </table>
             <p>Please keep this Registration ID safe for future reference.</p>
-            <p style='margin-top:24px;'>Warm regards,<br><strong>Sahara Foundation Team</strong></p>
+            <p style='margin-top:24px;'>Warm regards,<br><strong>devendra kula vellalar sangam delhi Team</strong></p>
         </div>
     ";
-    $mail->AltBody = "Dear {$full_name},\n\nThank you for registering with Sahara Foundation.\nYour Registration ID: {$registration_id}\nDistrict: {$district}\nVillage: {$village}\n\nRegards,\nSahara Foundation Team";
+    $mail->AltBody = "Dear {$full_name},\n\nThank you for registering with devendra kula vellalar sangam delhi.\nYour Registration ID: {$registration_id}\nDistrict: {$district}\nVillage: {$village}\n\nRegards,\ndevendra kula vellalar sangam delhi Team";
 
     $mail->send();
 } catch (Exception $e) {

@@ -1,4 +1,4 @@
-# Sahara Foundation – Membership Registration Module
+# devendra kula vellalar sangam delhi – Membership Registration Module
 
 This adds a fully working **Membership Registration Form** to your NGO website,
 storing data in MySQL (phpMyAdmin) and emailing a confirmation via Gmail SMTP.
