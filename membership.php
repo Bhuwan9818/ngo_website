@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Become a Member – devendra kula vellalar sangam delhi</title>
+  <title>Become a Member – Sahara Foundation</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="membership.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
@@ -22,7 +22,7 @@
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a href="index.html#causes">Our Causes</a>
-      <!-- <a href="index.html#impact">Impact</a> -->
+      <a href="index.html#impact">Impact</a>
       <a href="membership.php" class="active">Membership</a>
       <a href="index.html#contact">Contact</a>
     </nav>
@@ -47,7 +47,7 @@
   <div class="container">
     <span class="section-label" style="color:#fff;">Join The Movement</span>
     <h1>Become a <span class="text-accent">Member</span></h1>
-    <p>Register as a member of devendra kula vellalar sangam delhi and join hands with us to bring change to villages across Namakkal and Salem districts.</p>
+    <p>Register as a member of Sahara Foundation and join hands with us to bring change to villages across Namakkal and Salem districts.</p>
   </div>
 </section>
 
@@ -75,6 +75,14 @@
 
         <label class="form-label">State</label>
         <input type="text" name="state" class="form-input" value="Delhi" readonly />
+
+        <label class="form-label">Location <span class="req">*</span></label>
+        <select name="location" id="location" class="form-input" required>
+          <option value="" selected disabled>-- Select Location --</option>
+          <?php foreach ($delhi_locations as $loc): ?>
+            <option value="<?php echo htmlspecialchars($loc); ?>"><?php echo htmlspecialchars($loc); ?></option>
+          <?php endforeach; ?>
+        </select>
 
         <label class="form-label">District <span class="req">*</span></label>
         <select name="district" id="district" class="form-input" required>
@@ -117,7 +125,7 @@
 <footer class="footer">
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
-      <span>© 2025 devendra kula vellalar sangam delhi. All rights reserved.</span>
+      <span>© 2025 Sahara Foundation. All rights reserved.</span>
       <span>Made with <i class="fa-solid fa-heart" style="color:#e74c3c;"></i> for Humanity</span>
     </div>
   </div>

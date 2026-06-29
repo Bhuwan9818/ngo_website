@@ -4,10 +4,10 @@
 -- database and table needed for the membership form.
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS sahara_foundation
-  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS if0_42258729_sahara_foundation
+CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
-USE sahara_foundation;
+USE if0_42258729_sahara_foundation;
 
 CREATE TABLE IF NOT EXISTS members (
   id INT AUTO_INCREMENT PRIMARY KEY,

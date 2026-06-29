@@ -27,3 +27,33 @@ $villages_data = [
         "Gopi Ganapathi Palayam", "Chatram", "Karungal Palayam", "Vaira Palayam"
     ],
 ];
+
+/**
+ * New Delhi locations - used for the "Location" dropdown field
+ * in the membership form (shown right after the State field).
+ */
+$delhi_locations = [
+    "Indrapuri",
+    "Shakurpur",
+    "Rani Bagh",
+    "Shalimar Bagh",
+    "Bharat Nagar",
+    "Mori Gate",
+    "Kalyani Puri",
+    "Mayur Vihar",
+    "Aashram",
+    "RK Puram + Munirka",
+    "Moti Bagh",
+    "Dabri",
+    "Pappan Kalan",
+    "Dwarka Kakrola Sec 15",
+    "Uttam Nagar Juggi",
+    "Khyala",
+    "Nangloi",
+    "Mangal Puri",
+    "Jaaungi Puri",
+    "Ragubir Nagar",
+    "Sarojini Nagar",
+    "Govind Puri",
+    "New Delhi Anna Nagar Juggi",
+];
