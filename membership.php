@@ -22,11 +22,10 @@
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a href="index.html#causes">Our Causes</a>
-      <a href="index.html#impact">Impact</a>
-      <a href="membership.php" class="active">Membership</a>
+      <a href="#culture">Tamil Culture</a>
       <a href="index.html#contact">Contact</a>
     </nav>
-    <a href="index.html#donate" class="btn btn-primary nav-donate">Donate Now</a>
+    <a href="membership.php" class="btn btn-primary nav-donate">Membership</a>
     <button class="hamburger" id="hamburger" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
